@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isPresented = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Button("Show modal") {
+                    self.isPresented = true
+                }.sheet(isPresented: $isPresented) {
+                    ModalView()
+                }
+            }
+            .padding()
+            .navigationTitle("Xcode and Git")
         }
-        .padding()
     }
 }
 

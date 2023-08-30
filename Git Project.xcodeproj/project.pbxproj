@@ -11,6 +11,7 @@
 		BEC3385B2A9F8D7200ED3373 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3385A2A9F8D7200ED3373 /* ContentView.swift */; };
 		BEC3385D2A9F8D7300ED3373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC3385C2A9F8D7300ED3373 /* Assets.xcassets */; };
 		BEC338602A9F8D7300ED3373 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC3385F2A9F8D7300ED3373 /* Preview Assets.xcassets */; };
+		BEC338672A9F91B400ED3373 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC338662A9F91B400ED3373 /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		BEC3385A2A9F8D7200ED3373 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BEC3385C2A9F8D7300ED3373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEC3385F2A9F8D7300ED3373 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEC338662A9F91B400ED3373 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				BEC338582A9F8D7200ED3373 /* Git_ProjectApp.swift */,
 				BEC3385A2A9F8D7200ED3373 /* ContentView.swift */,
+				BEC338662A9F91B400ED3373 /* ModalView.swift */,
 				BEC3385C2A9F8D7300ED3373 /* Assets.xcassets */,
 				BEC3385E2A9F8D7300ED3373 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC338672A9F91B400ED3373 /* ModalView.swift in Sources */,
 				BEC3385B2A9F8D7200ED3373 /* ContentView.swift in Sources */,
 				BEC338592A9F8D7200ED3373 /* Git_ProjectApp.swift in Sources */,
 			);
