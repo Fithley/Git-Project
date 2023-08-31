@@ -10,7 +10,7 @@ import SwiftUI
 struct ModalView: View {
     var body: some View {
         VStack {
-            Text("Modal view")
+            Text("Second view")
         }.navigationBarTitle("Second view", displayMode: .inline)
     }
 }
