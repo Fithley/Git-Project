@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var isPresented = false
     
     var body: some View {
         NavigationStack {
@@ -16,11 +15,10 @@ struct ContentView: View {
                 Image(systemName: "globe")
                     .imageScale(.large)
                     .foregroundColor(.accentColor)
-                Button("Show modal") {
-                    self.isPresented = true
-                }
-                .sheet(isPresented: $isPresented) {
+                NavigationLink {
                     ModalView()
+                } label: {
+                    Text("Link")
                 }
             }
             .foregroundColor(.red)
