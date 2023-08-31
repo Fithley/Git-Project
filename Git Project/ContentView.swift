@@ -21,7 +21,7 @@ struct ContentView: View {
                     Text("Link")
                 }
             }
-            .foregroundColor(.red)
+            .foregroundColor(.purple)
             .padding()
             .navigationTitle("Xcode and Git")
         }
